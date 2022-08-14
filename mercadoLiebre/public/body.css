@@ -126,9 +126,7 @@
         margin:  10px;
     }
     /*DAR SOMBREADO A LOS PRODUCTOS*/
-    .container-product{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+   
     /*CAMBIAR TAMAÑO DEL BANER*/
     .banner{
         height: 300px;
@@ -163,14 +161,14 @@
         display: flex;
         justify-content: space-between;
         
-    }.container-product :hover .descripcion{
+    }.container-product:hover .descripcion{
         display: block;
     }.container-product .container-img img :hover .descripcion{
         display: block;
     }
     .container-product:hover .fa-truck{
         transform: rotate(-90deg);
-    }.container-product :hover{
+    }.container-product:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     
@@ -222,9 +220,9 @@
         width: 35%;
         margin: 20px;
         
-    }.container-product :hover .descripcion{
+    }.container-product:hover .descripcion{
         display: block;
-    }.container-img :hover .descripcion{
+    }.container-img:hover .descripcion{
         display: block;
     }
     .posicionG{
